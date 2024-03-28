@@ -1,0 +1,83 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+/* Basic styling */
+.main-container {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url('keith-misner-h0Vxgz5tyXA-unsplash.jpg');
+  background-size: cover;
+}
+
+.container {
+  width: 90%;
+  max-width: 600px;
+  padding: 20px;
+  background-color: rgba(192, 177, 177, 0.75);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 7px 7px 15px black;
+}
+
+.container h2 {
+  font-size: 2rem;
+  margin-top: 15px;
+  margin-bottom: 30px;
+}
+
+.box {
+  margin-bottom: 20px;
+}
+
+input[type='text'] {
+  width: 80%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  margin-bottom: 30px;
+}
+
+button[type='submit'] {
+  width: 27%;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button[type='submit']:hover {
+  background-color: #0056b3;
+}
+
+#imges {
+  width: 50%;
+  height: auto;
+}
+
+/* Media query for small screens */
+@media (max-width: 768px) {
+  .container {
+    padding: 10px;
+    margin-top: -10rem;
+  }
+
+  .container h2 {
+    font-size: 26px;
+  }
+}
